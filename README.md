@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/e3ae2851c024d0a9226c7.jpg" alt="ʜᴇɪsᴇɴ ʟᴏɢᴏ">
+  <img src="https://te.legra.ph/file/5410b1d4091f5adfa8e17" alt="ᴅᴜʟǫᴜʀ ʟᴏɢᴏ">
 </p>
 <h1 align="center">
-  <b>Gx Hᴇɪsᴇɴ Bᴏᴛ</b>
+  <b>Gᴛ ᴅᴜʟǫᴜʀ ʙᴏᴛ</b>
 </h1>
 
 
