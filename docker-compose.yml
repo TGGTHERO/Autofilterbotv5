@@ -15,5 +15,5 @@ services:
       DATABASE_NAME: $DATABASE_NAME 
       DATABASE_URI: $DATABASE_URI 
       PICS: $PICS
-      
+      UPSTREAM_REPO: $UPSTREAM_REPO
       
