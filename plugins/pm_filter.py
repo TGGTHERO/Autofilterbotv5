@@ -522,7 +522,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.EXTRAMOD_TXT,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN'
+            parse_mode=enums.ParseMode.MARKDOWN
         )
     elif query.data == "admin":
         buttons = [[
@@ -532,7 +532,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.ADMIN_TXT,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN'
+            parse_mode=enums.ParseMode.MARKDOWN
         )
     elif query.data == "stats":
         buttons = [[
@@ -550,7 +550,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.STATUS_TXT.format(total, users, chats, monsize, free),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN'
+            parse_mode=enums.ParseMode.MARKDOWN
         )
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
@@ -569,7 +569,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.STATUS_TXT.format(total, users, chats, monsize, free),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN'
+            parse_mode=enums.ParseMode.MARKDOWN
         )
     elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
